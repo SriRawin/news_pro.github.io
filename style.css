@@ -80,7 +80,7 @@ li a:hover {
 .img-container {
   position: relative;
   text-align: center;
-  background-image: url(../images/anirudh.jpg);
+  background-image: url(https://raw.githubusercontent.com/SriRawin/news_pro.github.io/master/images/anirudh.jpg);
   background-size: cover;
   height: 50rem;
   margin: 20px;
