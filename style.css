@@ -131,7 +131,7 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 .img-container-2 {
-  background-image: url(../images/side_news.jpg);
+  background-image: url(https://raw.githubusercontent.com/SriRawin/news_pro.github.io/master/images/side_news.jpg);
   background-size: cover;
   width: 94%;
   height: 40%;
