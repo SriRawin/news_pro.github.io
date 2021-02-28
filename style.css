@@ -21,11 +21,16 @@ li a {
   font-family: "Raleway", sans-serif;
   display: block;
   color: black;
+  background-color: white;
   font-weight: 650;
   font-size: 12px;
   text-decoration: none;
   text-align: center;
   padding: 20px 24px;
+}
+li a:hover {
+  color: white;
+  background-color: black;
 }
 .seperator-1 {
   border-bottom: 0px;
@@ -64,9 +69,77 @@ li a {
   width: 100%;
 }
 #search-bar input {
+  border-radius: 5px;
   width: 100%;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   padding: 16px;
   border: 1.5px solid rgb(218, 218, 218);
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  background-image: url(/images/anirudh.jpg);
+  background-size: cover;
+  height: 50rem;
+  margin: 20px;
+}
+.img-container h1 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  width: fit-content;
+  padding: 7px 16px;
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.stack-row {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  display: inline-flex;
+}
+.stack-row li {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border: none;
+}
+.stack-row li:hover {
+  background-color: orangered;
+}
+.thick-seperator {
+  border-bottom: 3px solid black;
+  border-top: 0px solid transparent;
+  margin: 20px;
+}
+
+.thin-seperator {
+  border-bottom: 3px solid rgb(218, 218, 218);
+  border-top: 0px solid transparent;
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.img-container-2 {
+  background-image: url(/images/side_news.jpg);
+  background-size: cover;
+  width: 94%;
+  height: 40%;
+  margin: 20px;
+}
+.side_news {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px;
 }
