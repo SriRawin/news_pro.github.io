@@ -24,7 +24,7 @@ li a {
   color: black;
   background-color: white;
   font-weight: 650;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   text-align: center;
   padding: 20px 24px;
@@ -72,7 +72,7 @@ li a:hover {
   border-radius: 5px;
   width: 100%;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   padding: 16px;
   border: 1.5px solid rgb(218, 218, 218);
 }
@@ -91,8 +91,8 @@ li a:hover {
   top: 15px;
   left: 15px;
   text-align: center;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 400;
   width: fit-content;
   padding: 7px 16px;
   background-color: black;
@@ -106,7 +106,7 @@ li a:hover {
   display: inline-flex;
 }
 .stack-row li {
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Raleway", sans-serif;
   color: white;
   background-color: black;
@@ -128,7 +128,7 @@ li a:hover {
   margin: 20px;
 }
 h2 {
-  font-size: 19px;
+  font-size: 20px;
   text-align: center;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -167,6 +167,7 @@ h2 {
   width: 50%;
 
   border-top: 1px solid rgb(218, 218, 218);
+  border-bottom: 2px solid black;
 }
 .sub-right {
   float: right;
@@ -176,6 +177,7 @@ h2 {
   border-left: 1px solid rgb(218, 218, 218);
   border-top: 1px solid rgb(218, 218, 218);
   border-right: 1px solid rgb(218, 218, 218);
+  border-bottom: 2px solid black;
 }
 .img-container-3 {
   background-image: url(/images/featured_story.jpg);
@@ -191,4 +193,22 @@ h2 {
   font-size: 20px;
   font-weight: 400;
   margin: 20px;
+}
+.icon-list img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(199, 199, 199);
+}
+.icon-list {
+  display: table;
+  margin: auto;
+}
+.icon-list img:hover {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
 }
