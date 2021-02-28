@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+}
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+li {
+  border-right: 1px solid rgb(218, 218, 218);
+}
+li a {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  color: black;
+  font-weight: 650;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 24px;
+}
+.seperator-1 {
+  border-bottom: 0px;
+  border-color: transparent;
+  border-top: 1px solid rgb(218, 218, 218);
+}
+.title h1 {
+  margin: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+}
+.seperator-2 {
+  border-color: transparent;
+  border-bottom: 4px solid black;
+}
+.row {
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+  width: 100%;
+}
+.column-left {
+  float: left;
+
+  height: 100%;
+  width: 60%;
+}
+.column-right {
+  border-left: 1px solid rgb(218, 218, 218);
+  background-color: white;
+  float: right;
+  height: 100%;
+  width: 40%;
+}
+#search-bar {
+  padding: 20px;
+  width: 100%;
+}
+#search-bar input {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  padding: 16px;
+  border: 1.5px solid rgb(218, 218, 218);
+}
