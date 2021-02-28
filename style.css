@@ -80,7 +80,7 @@ li a:hover {
 .img-container {
   position: relative;
   text-align: center;
-  background-image: url(/images/anirudh.jpg);
+  background-image: url(images/anirudh.jpg);
   background-size: cover;
   height: 50rem;
   margin: 20px;
@@ -131,7 +131,7 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 .img-container-2 {
-  background-image: url(/images/side_news.jpg);
+  background-image: url(images/side_news.jpg);
   background-size: cover;
   width: 94%;
   height: 40%;
